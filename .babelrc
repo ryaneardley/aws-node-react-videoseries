@@ -1,0 +1,14 @@
+{
+  "presets":[
+    "es2015",
+    "es2016",
+    "react",
+    "latest",
+    "flow",
+    "stage-2",
+  ],
+  "plugins": [
+    "transform-es2015-spread",
+    "transform-object-rest-spread",
+  ],
+}

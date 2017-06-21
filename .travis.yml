@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '4'
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: BxIW/fKCoMCmkqhUD6X69mV9NtjfzNEb/l+16bm5YcqqPXo2tuNH72f1YkOyHGqyvGJ4Ipd3oq5t3OxhluQ1g1CsG9Bc5I6siNI5+NSgx8P89HdYln0zgWUSLYOfBJH18UoO5wznBYFskU0DRPUxsR6XaFClz3D1iAiXgycm6C+7mZOpjNsU5PxT+ApM1IFMEpdPAEawsibNAwgeZT5yWIw7jQNjXspXzE0pqJD1Ju1qHu9824r7To4tGNc+8Pll9Epy2zS2CbHyd2GHbFbo3HhSjpV8qdsXJR581aSaLWl1/sQBJ8UL39tqbqubxYPgjYCKkOs5V2DFH0LCF/9TOnUHk6ZeXgx6pKhe4clv/mIq5sXrIDvLaUH53GurGzshMoDLQ+g6EHzwA8ql3Pr/QPOTuW58g236qbWVAZDHY7PsoQBwggzVCRfAkWwIsttddM/BulvxBSo7Tyjs6nR8ETby9DOH9qmrASUizckDOSFpg9w2QUqplr8OUILa6nBqK40b8D0uxXYrxPnC1IpKj9mIcOYn2TURZo7ZQyPB7mfdj5nrrJJZ1LOeIMaIaL5uiZl7acDofOrELB2vjf1kXd4ebmK6ffIq9RNwRtVAPRi2oeO51fQjSnkBH3sZEc2Rt6X/ny4CFgNCl3ywtk5PTk6C09ywLGYVhfKDQYKtb3k=
+  app: tracr-tracr
+  on: master
