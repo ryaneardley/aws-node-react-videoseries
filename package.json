@@ -1,16 +1,8 @@
 {
-  "name": "tracr",
-  "version": "0.0.1",
-  "description": "Asset Tracking",
-  "main": "./server/app.js",
-  "repository": "https://github.com/Neitsch/tracr",
-  "author": "Nigel Schuster <nigel.schusters@googlemail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "webpack && node ./server/app.js",
-    "dev": "node ./server/app.js",
-    "test": "echo great"
-  },
+  "name": "tracr-master-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -50,7 +42,10 @@
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   },
-  "devDependencies": {
-    "flow-bin": "^0.46.0"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan",
+  "license": "ISC"
 }
